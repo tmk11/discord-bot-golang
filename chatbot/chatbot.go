@@ -21,7 +21,7 @@ func GetResponse(query string) string {
 
 	EncodedQuery := url.QueryEscape(query)
 
-    URL := fmt.Sprintf("http://api.brainshop.ai/get?bid=153868&key=rcKonOgrUFmn5usX&uid=1&msg=%s", EncodedQuery)
+    URL := fmt.Sprintf("http://api.brainshop.ai/get?bid=171606&key=wgdPgktAGT5M5hzL&uid=1&msg=%s", EncodedQuery)
     
 	client := &http.Client{}
 	req, err := http.NewRequest("GET", URL, nil)
