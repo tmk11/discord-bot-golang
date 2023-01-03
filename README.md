@@ -15,4 +15,4 @@ OR
 
 - install Docker
 - get my image ("sudo docker pull mkong4/golang-discord-bot")
-- run container ("sudo docker run -d -e TOKEN='your-discord-token' --name golang-discord-bot-container mkong4/golang-discord-bot")
+- run container ("sudo docker run -d -e DISCORD_TOKEN='your-discord-token' --name golang-discord-bot-container mkong4/golang-discord-bot")
